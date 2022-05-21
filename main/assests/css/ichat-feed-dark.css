@@ -1,0 +1,297 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Catamaran Regular;
+}
+
+body {
+    background-color: #0c1e2e;
+}
+
+/*********************** TwitterFeed Main Nav ********************************/
+div.TwitterFeed nav.MainNav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(12, 30, 46, 0.90);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid #10273c;
+	height: 60px;
+}
+
+div.TwitterFeed nav.MainNav div.ContainerFluid {
+	padding: 0.35em 0.90em;
+	display: flex;
+	align-items: center;
+}
+
+div.TwitterFeed nav.MainNav div.LeftContent span.iChatBrand {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 32px;
+	font-family: Anydore;
+	color: #f8f9fc;
+}
+
+div.TwitterFeed nav.MainNav div.LeftContent i {
+	font-size: 25px;
+	color: #f8f9fc;
+}
+
+div.TwitterFeed nav.MainNav div.RightContent i {
+	font-size: 25px;
+	color: #f8f9fc;
+}
+
+
+/************************* TwitterFeed Main Footer ****************************/
+div.TwitterFeed footer.PostContentsPageFooter {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(12, 30, 46, 0.90);
+	backdrop-filter: blur(10px);
+	border-top: 1px solid #10273c;
+	height: 60px;
+}
+
+div.TwitterFeed footer.PostContentsPageFooter div.ContainerFluid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.35em 2em;
+}
+
+div.TwitterFeed footer.PostContentsPageFooter div.ContainerFluid i {
+	font-size: 25px;
+    color: #f8f9fc;
+}
+
+/* 
+********** Typical POST Stylings *************
+*/
+/*************************** TwitterFeed POST CONTAINER **************************/
+div.TwitterFeed div.PostContent {
+	margin: 70px 0 60px 0;
+}
+
+div.TwitterFeed div.Post {
+	padding: 0.35em 1.5em;
+}
+/*************************** TwitterFeed POST Header **************************/
+div.TwitterFeed div.PostHeader {
+	display: flex;
+}
+
+div.TwitterFeed div.PostHeaderAligner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+div.TwitterFeed div.PostProfilePicture {
+	margin-right: 10px;
+}
+
+div.TwitterFeed div.PostUserDetails {
+	line-height: 1.2;
+}
+
+div.TwitterFeed div.PostDropdown {
+	float: right;
+}
+
+div.TwitterFeed div.PostUserDetails div.PostName {
+	font-weight: bolder;
+	font-size: 16px;
+    color: #f8f9fc;
+}
+
+div.TwitterFeed div.PostUserDetails div.PostName > i {
+    color: #f8f9fc;
+}
+
+i.ShowPostDropdownOption {
+    color: #f8f9fc;
+}
+
+/* *************************** SETTINGS POPUP STYLINGS ******************** */
+div.SettingsPopup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+div.SettingsPopup div.SettingsPopupOverlay {
+	height: calc(100vh - 55px);
+	width: 100vw;
+	background-color: transparent;
+}
+
+div.SettingsPopup ul {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: auto;
+	width: 100vw;
+	background-color: #0c1f2e;
+	list-style: none;
+}
+
+div.SettingsPopup ul li {
+	padding: 14px 26px;
+	background-color: #0c1f2e;
+	border-bottom: #10273c;
+}
+
+div.SettingsPopup ul li:hover {
+	background-color: #10273c;
+}
+
+div.SettingsPopup ul li span {
+	font-family: Catamaran Medium;
+	color: #f8f9fc;
+}
+
+div.SettingsPopup ul li i {
+	color: #f8f9fc;
+}
+
+/* **************** TwitterFeed Post Header Dropdown Option ******************** */
+div.PostDropdownOption {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+div.PostDropdownOption div.Popupoverlay {
+	height: calc(100vh - 55px);
+	width: 100vw;
+	background-color: transparent;
+}
+
+div.PostDropdownOption ul {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: auto;
+	width: 100vw;
+	background-color: #0c1f2e;
+	list-style: none;
+}
+
+div.PostDropdownOption ul li {
+	padding: 14px 26px;
+	background-color: #0c1f2e;
+	border-bottom: #10273c;
+}
+
+div.PostDropdownOption ul li:hover {
+	background-color: #10273c;
+}
+
+div.PostDropdownOption ul li span {
+	font-family: Catamaran Medium;
+	color: #f8f9fc;
+}
+
+div.PostDropdownOption ul li i {
+	color: #f8f9fc;
+}
+/*************************** TwitterFeed POST Body **************************/
+div.TwitterFeed div.PostBody div.PostTextContainer p {
+	font-size: 22px;
+	line-height: 1.2;
+	font-family: Catamaran Regular;
+	color: #f8f9fc;
+}
+
+div.TwitterFeed div.PostBody div.PostTextContainer p > span {
+	display: block;
+	background-color: #10273c;
+	height: 20px;
+	width: 100%;
+}
+
+div.TwitterFeed div.PostBody div.PostTextContainer p > span:nth-child(2) {
+	width: 70%;
+	margin-top: 5px;
+}
+
+div.TwitterFeed div.PostBody div.PostFileContainer {
+	margin: 8px 0 5px 0;
+	border-radius: .35em;
+	overflow: hidden;
+}
+
+div.TwitterFeed div.PostBody div.PostFileContainer > div {
+	display: block;
+	background-color: #10273c;
+	height: 244px;
+	width: 100vw;
+}
+
+div.TwitterFeed div.PostBody div.PostFileContainer > img.MainPostPicture, img {
+	width: 100%;
+	border-radius: 0.35em;
+}
+
+/*************************** TwitterFeed POST Footer **************************/
+div.TwitterFeed div.PostFooter {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 1px solid #eaecf4;
+	padding-bottom: 10px;
+}
+
+div.TwitterFeed div.PostFooter i {
+	font-size: 20px;
+	color: #4D5C6B;
+}
+
+div.TwitterFeed div.PostFooter span {
+	font-size: 20px;
+	color: #000000;
+	font-weight: bold;
+}
+
+/********************** TwitterFeed Create New Post Button ***********************/
+div.TwitterFeed div.CreatePost {
+	position: fixed;
+	bottom: 5vh;
+	left: 86vw;
+	transform: translate(-50%, -50%);
+	background-color: #0095F6;
+	color: #f8f9fc;
+	height: 4.5em;
+	width: 4.5em;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+	text-align: center;
+}
+
+div.TwitterFeed div.CreatePost i {
+	font-size: 24px;
+}
+

@@ -1,0 +1,240 @@
+div.ReplyPostPage {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background-color: #0c1e2e;
+	height: 100%;
+	overflow-y: scroll;
+	display: block;
+}
+
+div.ReplyPostPage nav.MainNav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(12, 30, 46, 0.90);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid #10273c;
+	height: 60px;
+}
+
+div.ReplyPostPage nav.MainNav div.ContainerFluid {
+	padding: 0.35em 1.39em;
+	display: flex;
+	align-items: center;
+}
+
+div.ReplyPostPage nav.MainNav div.LeftContent i {
+	font-size: 24px;
+    color: #f8f9fc;
+}
+
+div.ReplyPostPage nav.MainNav div.RightContent span {
+	font-family: Catamaran SemiBold;
+	color: #f8f9fc;
+	cursor: pointer;
+    font-size: 24px;
+}
+/**************** FOOTER  *******************/
+div.ReplyPostPage footer.ReplyPostFooter {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(12, 30, 46, 0.90);
+	backdrop-filter: blur(10px);
+	border-top: 1px solid #10273c;
+	height: 60px;
+}
+
+div.ReplyPostPage footer.ReplyPostFooter div.ContainerFluid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.35em 2em;
+	height: 100%;
+}
+
+div.ReplyPostPage footer.ReplyPostFooter div.ContainerFluid i {
+	font-size: 25px;
+	cursor: pointer;
+	outline: none;
+}
+
+div.ReplyPostPage footer.ReplyPostFooter div.ContainerFluid i:nth-child(1) {
+	color: #34a853;
+}
+
+div.ReplyPostPage footer.ReplyPostFooter div.ContainerFluid i:nth-child(2) {
+	color: #0095F6;
+}
+
+/*********************************************************************/
+div.ReplyPostPage div.ReplyPostContent {
+	margin: 60px 0 60px 0;
+	padding: 0.35em 0.90em;
+}
+
+div.ReplyPostPage div.ReplyPostHeader	{
+	display: flex;
+}
+
+div.ReplyPostPage div.PostHeaderAligner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+div.ReplyPostPage div.PostProfilePicture {
+	margin-right: 10px;
+}
+
+div.ReplyPostPage div.ReplyPostProfilePicture {
+	margin-right: 10px;
+}
+
+div.ReplyPostPage div.ReplyPostProfilePictureContainer span {
+	width: 4em;
+	height: 4em;
+	background-color: #10273c;
+	display: block;
+	border-radius: 50%;
+}
+
+div.ReplyPostPage div.PostUserDetails {
+	line-height: 1.2;
+}
+
+div.ReplyPostPage div.PostDropdown {
+	float: right;
+}
+
+div.ReplyPostPage div.PostUserDetails div.ReplyPostName {
+	font-weight: bolder;
+	font-size: 18px;
+    color: #f8f9fc;
+}
+
+div.ReplyPostPage div.PostUserDetails div.ReplyPostName span {
+	display: block;
+	background-color: #10273c;
+	height: 20px;
+	width: 15em;
+	margin-bottom: 10px;
+}
+
+div.ReplyPostPage div.PostUserDetails div.ReplyPostUserName span {
+	display: block;
+	background-color: #10273c;
+	height: 20px;
+	width: 10em;
+}
+
+i.ShowReplyModelPopup {
+    color: #f8f9fc;
+}
+
+div.ReplyPostPage div.ReplyPostBody div.ReplyPostTextContainer textarea {
+	border: none;
+	border-bottom: 1px solid #292f33;
+    background-color: #10273c;
+    color: #f8f9fc;
+	width: 100%;
+	height: auto;
+	outline: none;
+	font-size: 22px;
+	resize: none;
+	margin-top: 10px;
+    padding: 10px;
+    border-radius: .35em;
+}
+
+div.ReplyPostPage div.ReplyPostBody div.ReplyPostGallery {
+	margin: 8px 0;
+	display: block;
+	width: 100%;
+	border-radius: .35em;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.ReplyPostPage div.ReplyPostBody div.ReplyPostGallery * {
+	height: 256.812px;
+	border-radius: .35em;
+	margin: 0 3px 0 0;
+	border: 1px solid #10273c;
+}
+
+/* ********************** REPLY MODEL ************************** */
+div.CreateReplyModel div.ReplyModel {
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0c1f2e;
+    border-radius: .35em;
+    padding: 1em;
+}
+
+div.CreateReplyModel div.ReplyModel div.ModelProfilePictureContainer {
+    width: 10em;
+    height: 10em;
+    background-color: #10273c;
+    border-radius: 50%;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+div.CreateReplyModel div.ReplyModel div.ModelProfilePictureContainer img.ModelProfilePicture {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+div.CreateReplyModel div.ReplyModel div.ModelPersonalDetails input {
+    background-color: #0c1f2e;
+    color: #f8f9fc;
+    border-radius: .35em;
+    padding: 0.5em;
+    border: 0.75px solid #10273c;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    font-family: Catamaran;
+}
+
+div.CreateReplyModel div.ReplyModel button.ExitModelButton {
+    background-color: #0095F6;
+    color: #f8f9fc;
+    padding: 0.5em 1em;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: .35em;
+}
+
+div.CreateReplyModel div.ReplyModel button.UseModelButton {
+    background-color: #0095F6;
+    color: #f8f9fc;
+    padding: 0.5em 1em;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: .35em;
+    float: right;
+}

@@ -1,0 +1,83 @@
+div.AboutSoftware {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background-color: #ffffff;
+	height: 100%;
+	overflow-y: scroll;
+	display: block;
+}
+
+div.AboutSoftware nav.MainNav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(255,255,255,0.90);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid #f8f9fc;
+	height: 60px;
+}
+
+div.AboutSoftware nav.MainNav div.ContainerFluid {
+	padding: 0.35em 1.39em;
+	display: flex;
+	align-items: center;
+}
+
+div.AboutSoftware nav.MainNav div.LeftContent i {
+	font-size: 24px;
+}
+
+div.AboutSoftware nav.MainNav div.RightContent span {
+	font-family: Catamaran Regular;
+	color: #0095F6;
+	cursor: pointer;
+	font-size: 24px;
+}
+
+/* ************************ SETTINGS *************************** */
+div.AboutSoftware div.Body {
+    margin: 70px 0 0 0;
+    padding: 1rem;
+}
+
+div.AboutSoftware diV.Body div.BodyHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div.AboutSoftware div.Body div.BodyHeader h1.SoftwareBrand {
+    text-decoration: none;
+	font-weight: 500;
+    font-size: 45px;
+	font-family: Anydore;
+	color: #0095F6;
+}
+
+div.AboutSoftware diV.Body div.BodyContent {
+    font-size: 18.5px;
+}
+
+div.AboutSoftware diV.Body div.BodyContent ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+div.AboutSoftware diV.Body div.BodyContent ul li {
+	padding: 14px 0;
+}
+
+div.AboutSoftware diV.Body div.BodyContent ul li span {
+	font-family: Catamaran Medium;
+}
+
+div.AboutSoftware diV.Body div.BodyContent ul li a {
+	text-decoration: none;
+    color: #000;
+}

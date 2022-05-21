@@ -1,0 +1,148 @@
+div.CreatePostPage {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background-color: #0c1f2e;
+	height: 100%;
+	overflow-y: scroll;
+	display: block;
+}
+
+div.CreatePostPage nav.MainNav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;	
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgba(12, 30, 46, 0.90);
+	backdrop-filter: blur(10px);
+	border-bottom: 1px solid #10273c;
+	height: 60px;
+}
+
+div.CreatePostPage nav.MainNav div.ContainerFluid {
+	padding: 0.35em 1.39em;
+	display: flex;
+	align-items: center;
+}
+
+div.CreatePostPage nav.MainNav div.LeftContent i {
+	font-size: 24px;
+    color: #f8f9fc;
+}
+
+div.CreatePostPage nav.MainNav div.RightContent span {
+	font-family: Catamaran Regular;
+	color: #f8f9fc;
+	cursor: pointer;
+    font-size: 24px;
+}
+/**************** FOOTER  *******************/
+div.CreatePostPage footer.CreatePostFooter {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(12, 30, 46, 0.90);
+	backdrop-filter: blur(10px);
+	border-top: 1px solid #10273c;
+	height: 60px;
+}
+
+div.CreatePostPage footer.CreatePostFooter div.ContainerFluid {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.35em 2em;
+	height: 100%;
+}
+
+div.CreatePostPage footer.CreatePostFooter div.ContainerFluid i {
+	font-size: 25px;
+	cursor: pointer;
+	outline: none;
+}
+
+div.CreatePostPage footer.CreatePostFooter div.ContainerFluid i:nth-child(1) {
+	color: #34a853;
+}
+
+div.CreatePostPage footer.CreatePostFooter div.ContainerFluid i:nth-child(2) {
+	color: #0095F6;
+}
+
+/*********************************************************************/
+div.CreatePostPage div.CreatePostContent {
+	margin: 60px 0 60px 0;
+	padding: 0.35em 0.90em;
+}
+
+div.CreatePostPage div.PostHeader	{
+	display: flex;
+}
+
+div.CreatePostPage div.PostHeaderAligner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
+}
+
+div.CreatePostPage div.PostProfilePicture {
+	margin-right: 10px;
+}
+
+div.CreatePostPage div.PostUserDetails {
+	line-height: 1.2;
+}
+
+div.CreatePostPage div.PostDropdown {
+	float: right;
+}
+
+div.CreatePostPage div.PostUserDetails div.PostName {
+	font-weight: bolder;
+	font-size: 16px;
+    color: #f8f9fc;
+    margin-bottom: 2px;
+}
+
+div.CreatePostPage div.PostBody div.PostTextContainer textarea {
+	border: none;
+	border-bottom: 1px solid #292f33;
+	width: 100%;
+	height: auto;
+	outline: none;
+	font-size: 22px;
+	resize: none;
+	margin-top: 10px;
+    background-color: #10273c;
+    color: #f8f9fc;
+	padding: 10px;
+	border-radius: 0.35em;
+}
+
+div.CreatePostPage div.PostBody div.PostGallery {
+	margin: 8px 0;
+	display: block;
+	width: 100%;
+	border-radius: .35em;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div.CreatePostPage div.PostBody div.PostGallery * {
+	/* height: 256.812px; */
+	width: 100%;
+	border-radius: .35em;
+	margin: 0 3px 0 0;
+	border: 1px solid #10273c;
+}
+
